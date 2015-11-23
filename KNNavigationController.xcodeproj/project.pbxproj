@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012819831C02B744000F5F64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819821C02B744000F5F64 /* main.m */; };
+		012819861C02B744000F5F64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819851C02B744000F5F64 /* AppDelegate.m */; };
+		012819891C02B744000F5F64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819881C02B744000F5F64 /* ViewController.m */; };
+		0128198C1C02B744000F5F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0128198A1C02B744000F5F64 /* Main.storyboard */; };
+		0128198E1C02B744000F5F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0128198D1C02B744000F5F64 /* Assets.xcassets */; };
+		012819911C02B744000F5F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0128198F1C02B744000F5F64 /* LaunchScreen.storyboard */; };
+		0128199E1C02B79C000F5F64 /* KNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128199D1C02B79C000F5F64 /* KNNavigationController.m */; };
+		012819AE1C02EE2E000F5F64 /* KNNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819AD1C02EE2E000F5F64 /* KNNavigationBar.m */; };
+		012819B11C02EF17000F5F64 /* KNNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819B01C02EF17000F5F64 /* KNNavigationItem.m */; };
+		012819B41C02FC20000F5F64 /* bg_navigator_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012819B31C02FC20000F5F64 /* bg_navigator_ios7@2x.png */; };
+		012819B71C0303AD000F5F64 /* UIViewController+KNNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819B61C0303AD000F5F64 /* UIViewController+KNNavigation.m */; };
+		012819BD1C030769000F5F64 /* UIView+GHYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819BC1C030769000F5F64 /* UIView+GHYView.m */; };
+		012819C11C030FA0000F5F64 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012819C01C030FA0000F5F64 /* Reveal.framework */; };
+		012819C31C030FBF000F5F64 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012819C21C030FBF000F5F64 /* CFNetwork.framework */; };
+		012819C51C030FD5000F5F64 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012819C41C030FD5000F5F64 /* CoreTelephony.framework */; };
+		012819C71C030FEC000F5F64 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012819C61C030FEC000F5F64 /* Security.framework */; };
+		012819C91C030FFE000F5F64 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 012819C81C030FFE000F5F64 /* libz.tbd */; };
+		012819CB1C0311B1000F5F64 /* bton_back_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012819CA1C0311B1000F5F64 /* bton_back_normal@2x.png */; };
+		012819CE1C031445000F5F64 /* KNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819CD1C031445000F5F64 /* KNBaseViewController.m */; };
+		012819D01C03220C000F5F64 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012819CF1C03220C000F5F64 /* Accelerate.framework */; };
+		012819D31C03222A000F5F64 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819D21C03222A000F5F64 /* UIImage+ImageEffects.m */; };
+		012819D71C032726000F5F64 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012819D61C032726000F5F64 /* CoreImage.framework */; };
+		65D1A4C85EB6F2598C88EC52 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D21B54A9A8FA6FCE912DCDA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0128197E1C02B744000F5F64 /* KNNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		012819821C02B744000F5F64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		012819841C02B744000F5F64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		012819851C02B744000F5F64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		012819871C02B744000F5F64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		012819881C02B744000F5F64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0128198B1C02B744000F5F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0128198D1C02B744000F5F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		012819901C02B744000F5F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		012819921C02B744000F5F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0128199C1C02B79C000F5F64 /* KNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNNavigationController.h; sourceTree = "<group>"; };
+		0128199D1C02B79C000F5F64 /* KNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNNavigationController.m; sourceTree = "<group>"; };
+		012819AC1C02EE2E000F5F64 /* KNNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNNavigationBar.h; sourceTree = "<group>"; };
+		012819AD1C02EE2E000F5F64 /* KNNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNNavigationBar.m; sourceTree = "<group>"; };
+		012819AF1C02EF17000F5F64 /* KNNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNNavigationItem.h; sourceTree = "<group>"; };
+		012819B01C02EF17000F5F64 /* KNNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNNavigationItem.m; sourceTree = "<group>"; };
+		012819B21C02F80B000F5F64 /* KNNavigationDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNavigationDefines.h; sourceTree = "<group>"; };
+		012819B31C02FC20000F5F64 /* bg_navigator_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_navigator_ios7@2x.png"; sourceTree = "<group>"; };
+		012819B51C0303AD000F5F64 /* UIViewController+KNNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KNNavigation.h"; sourceTree = "<group>"; };
+		012819B61C0303AD000F5F64 /* UIViewController+KNNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KNNavigation.m"; sourceTree = "<group>"; };
+		012819BB1C030769000F5F64 /* UIView+GHYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GHYView.h"; sourceTree = "<group>"; };
+		012819BC1C030769000F5F64 /* UIView+GHYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GHYView.m"; sourceTree = "<group>"; };
+		012819C01C030FA0000F5F64 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		012819C21C030FBF000F5F64 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		012819C41C030FD5000F5F64 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		012819C61C030FEC000F5F64 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		012819C81C030FFE000F5F64 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		012819CA1C0311B1000F5F64 /* bton_back_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bton_back_normal@2x.png"; sourceTree = "<group>"; };
+		012819CC1C031445000F5F64 /* KNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBaseViewController.h; sourceTree = "<group>"; };
+		012819CD1C031445000F5F64 /* KNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBaseViewController.m; sourceTree = "<group>"; };
+		012819CF1C03220C000F5F64 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		012819D11C03222A000F5F64 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		012819D21C03222A000F5F64 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		012819D61C032726000F5F64 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		31F72DE5EBC39710378A92D8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4502D487B6E4F1C65BF6DCF1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4D21B54A9A8FA6FCE912DCDA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0128197B1C02B744000F5F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012819D71C032726000F5F64 /* CoreImage.framework in Frameworks */,
+				012819D01C03220C000F5F64 /* Accelerate.framework in Frameworks */,
+				012819C91C030FFE000F5F64 /* libz.tbd in Frameworks */,
+				012819C71C030FEC000F5F64 /* Security.framework in Frameworks */,
+				012819C51C030FD5000F5F64 /* CoreTelephony.framework in Frameworks */,
+				012819C31C030FBF000F5F64 /* CFNetwork.framework in Frameworks */,
+				65D1A4C85EB6F2598C88EC52 /* libPods.a in Frameworks */,
+				012819C11C030FA0000F5F64 /* Reveal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012819751C02B744000F5F64 = {
+			isa = PBXGroup;
+			children = (
+				012819801C02B744000F5F64 /* KNNavigationController */,
+				0128197F1C02B744000F5F64 /* Products */,
+				238A4329A72330E5FD72DC80 /* Pods */,
+				BAD13447C3191531A2E52474 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0128197F1C02B744000F5F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0128197E1C02B744000F5F64 /* KNNavigationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		012819801C02B744000F5F64 /* KNNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				012819C01C030FA0000F5F64 /* Reveal.framework */,
+				012819841C02B744000F5F64 /* AppDelegate.h */,
+				012819851C02B744000F5F64 /* AppDelegate.m */,
+				012819BB1C030769000F5F64 /* UIView+GHYView.h */,
+				012819BC1C030769000F5F64 /* UIView+GHYView.m */,
+				012819D11C03222A000F5F64 /* UIImage+ImageEffects.h */,
+				012819D21C03222A000F5F64 /* UIImage+ImageEffects.m */,
+				0128199B1C02B77B000F5F64 /* KNNavigationController */,
+				012819871C02B744000F5F64 /* ViewController.h */,
+				012819881C02B744000F5F64 /* ViewController.m */,
+				012819CC1C031445000F5F64 /* KNBaseViewController.h */,
+				012819CD1C031445000F5F64 /* KNBaseViewController.m */,
+				0128198A1C02B744000F5F64 /* Main.storyboard */,
+				0128198D1C02B744000F5F64 /* Assets.xcassets */,
+				0128198F1C02B744000F5F64 /* LaunchScreen.storyboard */,
+				012819921C02B744000F5F64 /* Info.plist */,
+				012819811C02B744000F5F64 /* Supporting Files */,
+			);
+			path = KNNavigationController;
+			sourceTree = "<group>";
+		};
+		012819811C02B744000F5F64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				012819821C02B744000F5F64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0128199B1C02B77B000F5F64 /* KNNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				012819B31C02FC20000F5F64 /* bg_navigator_ios7@2x.png */,
+				012819CA1C0311B1000F5F64 /* bton_back_normal@2x.png */,
+				0128199C1C02B79C000F5F64 /* KNNavigationController.h */,
+				0128199D1C02B79C000F5F64 /* KNNavigationController.m */,
+				012819B51C0303AD000F5F64 /* UIViewController+KNNavigation.h */,
+				012819B61C0303AD000F5F64 /* UIViewController+KNNavigation.m */,
+				012819AC1C02EE2E000F5F64 /* KNNavigationBar.h */,
+				012819AD1C02EE2E000F5F64 /* KNNavigationBar.m */,
+				012819AF1C02EF17000F5F64 /* KNNavigationItem.h */,
+				012819B01C02EF17000F5F64 /* KNNavigationItem.m */,
+				012819B21C02F80B000F5F64 /* KNNavigationDefines.h */,
+			);
+			path = KNNavigationController;
+			sourceTree = "<group>";
+		};
+		238A4329A72330E5FD72DC80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4502D487B6E4F1C65BF6DCF1 /* Pods.debug.xcconfig */,
+				31F72DE5EBC39710378A92D8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAD13447C3191531A2E52474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				012819D61C032726000F5F64 /* CoreImage.framework */,
+				012819CF1C03220C000F5F64 /* Accelerate.framework */,
+				012819C81C030FFE000F5F64 /* libz.tbd */,
+				012819C61C030FEC000F5F64 /* Security.framework */,
+				012819C41C030FD5000F5F64 /* CoreTelephony.framework */,
+				012819C21C030FBF000F5F64 /* CFNetwork.framework */,
+				4D21B54A9A8FA6FCE912DCDA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0128197D1C02B744000F5F64 /* KNNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012819951C02B744000F5F64 /* Build configuration list for PBXNativeTarget "KNNavigationController" */;
+			buildPhases = (
+				01A6403E6D14013ED7128B1E /* Check Pods Manifest.lock */,
+				0128197A1C02B744000F5F64 /* Sources */,
+				0128197B1C02B744000F5F64 /* Frameworks */,
+				0128197C1C02B744000F5F64 /* Resources */,
+				AAE30A0E3402637E83EA4BF3 /* Embed Pods Frameworks */,
+				3461327A9CA20FA01FDDBAE5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNNavigationController;
+			productName = KNNavigationController;
+			productReference = 0128197E1C02B744000F5F64 /* KNNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		012819761C02B744000F5F64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = vbn;
+				TargetAttributes = {
+					0128197D1C02B744000F5F64 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 012819791C02B744000F5F64 /* Build configuration list for PBXProject "KNNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 012819751C02B744000F5F64;
+			productRefGroup = 0128197F1C02B744000F5F64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0128197D1C02B744000F5F64 /* KNNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0128197C1C02B744000F5F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012819CB1C0311B1000F5F64 /* bton_back_normal@2x.png in Resources */,
+				012819911C02B744000F5F64 /* LaunchScreen.storyboard in Resources */,
+				012819B41C02FC20000F5F64 /* bg_navigator_ios7@2x.png in Resources */,
+				0128198E1C02B744000F5F64 /* Assets.xcassets in Resources */,
+				0128198C1C02B744000F5F64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01A6403E6D14013ED7128B1E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3461327A9CA20FA01FDDBAE5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE30A0E3402637E83EA4BF3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0128197A1C02B744000F5F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012819B11C02EF17000F5F64 /* KNNavigationItem.m in Sources */,
+				012819891C02B744000F5F64 /* ViewController.m in Sources */,
+				012819BD1C030769000F5F64 /* UIView+GHYView.m in Sources */,
+				0128199E1C02B79C000F5F64 /* KNNavigationController.m in Sources */,
+				012819CE1C031445000F5F64 /* KNBaseViewController.m in Sources */,
+				012819B71C0303AD000F5F64 /* UIViewController+KNNavigation.m in Sources */,
+				012819D31C03222A000F5F64 /* UIImage+ImageEffects.m in Sources */,
+				012819AE1C02EE2E000F5F64 /* KNNavigationBar.m in Sources */,
+				012819861C02B744000F5F64 /* AppDelegate.m in Sources */,
+				012819831C02B744000F5F64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0128198A1C02B744000F5F64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0128198B1C02B744000F5F64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0128198F1C02B744000F5F64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012819901C02B744000F5F64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		012819931C02B744000F5F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		012819941C02B744000F5F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		012819961C02B744000F5F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4502D487B6E4F1C65BF6DCF1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KNNavigationController",
+				);
+				INFOPLIST_FILE = KNNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbn.description.KNNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		012819971C02B744000F5F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F72DE5EBC39710378A92D8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KNNavigationController",
+				);
+				INFOPLIST_FILE = KNNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Masonry\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbn.description.KNNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012819791C02B744000F5F64 /* Build configuration list for PBXProject "KNNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012819931C02B744000F5F64 /* Debug */,
+				012819941C02B744000F5F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012819951C02B744000F5F64 /* Build configuration list for PBXNativeTarget "KNNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012819961C02B744000F5F64 /* Debug */,
+				012819971C02B744000F5F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 012819761C02B744000F5F64 /* Project object */;
+}
