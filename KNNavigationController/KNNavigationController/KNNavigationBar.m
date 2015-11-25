@@ -8,16 +8,20 @@
 
 #import "KNNavigationBar.h"
 #import "KNNavigationDefines.h"
+#import "UIImage+ImageEffects.h"
 
 @implementation KNNavigationBar
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.backGoundImageView.image = [UIImage imageNamed:@"bg_navigator_ios7"];
-        
+        self.backGoundView.barTintColor = kNavigationBarColor;
         self.shadowView.backgroundColor = kNavigationBarShadowColor;
     }
     return self;
+}
+
+- (void)setBackGoundViewBlur:(BOOL)blur {
+    self.backGoundView.translucent = blur;
 }
 
 
@@ -118,16 +122,17 @@
     }];
 }
 
-- (UIImageView *)backGoundImageView
+- (UIToolbar *)backGoundView
 {
-    if (!_backGoundImageView) {
-        _backGoundImageView = [[UIImageView alloc] init];
-        [self insertSubview:_backGoundImageView atIndex:0];
-        [_backGoundImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+    if (!_backGoundView) {
+        _backGoundView = [[UIToolbar alloc] init];
+        _backGoundView.translucent = NO;
+        [self insertSubview:_backGoundView atIndex:0];
+        [_backGoundView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(self);
         }];
     }
-    return _backGoundImageView;
+    return _backGoundView;
 }
 
 - (UIView *)shadowView

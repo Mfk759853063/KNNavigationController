@@ -16,7 +16,6 @@
 		0128199E1C02B79C000F5F64 /* KNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128199D1C02B79C000F5F64 /* KNNavigationController.m */; };
 		012819AE1C02EE2E000F5F64 /* KNNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819AD1C02EE2E000F5F64 /* KNNavigationBar.m */; };
 		012819B11C02EF17000F5F64 /* KNNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819B01C02EF17000F5F64 /* KNNavigationItem.m */; };
-		012819B41C02FC20000F5F64 /* bg_navigator_ios7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012819B31C02FC20000F5F64 /* bg_navigator_ios7@2x.png */; };
 		012819B71C0303AD000F5F64 /* UIViewController+KNNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819B61C0303AD000F5F64 /* UIViewController+KNNavigation.m */; };
 		012819BD1C030769000F5F64 /* UIView+GHYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012819BC1C030769000F5F64 /* UIView+GHYView.m */; };
 		012819C11C030FA0000F5F64 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012819C01C030FA0000F5F64 /* Reveal.framework */; };
@@ -50,7 +49,6 @@
 		012819AF1C02EF17000F5F64 /* KNNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNNavigationItem.h; sourceTree = "<group>"; };
 		012819B01C02EF17000F5F64 /* KNNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNNavigationItem.m; sourceTree = "<group>"; };
 		012819B21C02F80B000F5F64 /* KNNavigationDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNavigationDefines.h; sourceTree = "<group>"; };
-		012819B31C02FC20000F5F64 /* bg_navigator_ios7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_navigator_ios7@2x.png"; sourceTree = "<group>"; };
 		012819B51C0303AD000F5F64 /* UIViewController+KNNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KNNavigation.h"; sourceTree = "<group>"; };
 		012819B61C0303AD000F5F64 /* UIViewController+KNNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KNNavigation.m"; sourceTree = "<group>"; };
 		012819BB1C030769000F5F64 /* UIView+GHYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GHYView.h"; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 		0128199B1C02B77B000F5F64 /* KNNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				012819B31C02FC20000F5F64 /* bg_navigator_ios7@2x.png */,
 				012819CA1C0311B1000F5F64 /* bton_back_normal@2x.png */,
 				0128199C1C02B79C000F5F64 /* KNNavigationController.h */,
 				0128199D1C02B79C000F5F64 /* KNNavigationController.m */,
@@ -244,7 +241,6 @@
 			files = (
 				012819CB1C0311B1000F5F64 /* bton_back_normal@2x.png in Resources */,
 				012819911C02B744000F5F64 /* LaunchScreen.storyboard in Resources */,
-				012819B41C02FC20000F5F64 /* bg_navigator_ios7@2x.png in Resources */,
 				0128198E1C02B744000F5F64 /* Assets.xcassets in Resources */,
 				0128198C1C02B744000F5F64 /* Main.storyboard in Resources */,
 			);

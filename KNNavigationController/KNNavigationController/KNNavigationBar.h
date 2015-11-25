@@ -13,7 +13,7 @@
 
 @property (strong, nonatomic) UIView *shadowView;
 
-@property (strong, nonatomic) UIImageView *backGoundImageView;
+@property (strong, nonatomic) UIToolbar *backGoundView;
 
 @property (strong, nonatomic) UILabel *titleLabel;
 
@@ -25,6 +25,6 @@
 
 @property (strong, nonatomic) NSArray *rightItems;
 
-- (void)setBackGoundImageViewBlur:(BOOL)blur;
+- (void)setBackGoundViewBlur:(BOOL)blur;
 
 @end

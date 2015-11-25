@@ -37,8 +37,7 @@ static int count = 0;
         [self.navigationController pushViewController:vc animated:YES];
     }];
     self.kn_navigationBar.rightItems = @[item1,item2];
-    [self.kn_navigationBar setBackGoundImageViewBlur:YES];
-    self.kn_navigationBar.backGoundImageView.alpha = 0.98;
+    [self.kn_navigationBar setBackGoundViewBlur:YES];
     UITableView *table = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     [self.view addSubview:table];
     table.contentInset = UIEdgeInsetsMake(44, 0, 0, 0);
@@ -64,7 +63,9 @@ static int count = 0;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        
     }
+    cell.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
     cell.textLabel.text =@"bbb";
     return cell;
 }

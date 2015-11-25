@@ -12,7 +12,7 @@
 #define kNavigationBarTitleLabelColor [UIColor whiteColor]
 #define kNavigationBarShadowColor [UIColor whiteColor]
 #define kNavigationBarTintColor [UIColor whiteColor]
-#define kNavigationBarColor     [UIColor colorWithWhite:1.00 alpha:0.980]
+#define kNavigationBarColor     [UIColor colorWithWhite:0.169 alpha:1]
 #define kNavigationBarLineColor [UIColor colorWithWhite:0.869 alpha:1]
 #import "Masonry.h"
 #endif /* KNNavigationDefines_h */
